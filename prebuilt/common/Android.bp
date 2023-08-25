@@ -1,6 +1,6 @@
 android_app_import {
-	name: "SmartCookieWeb",
-	apk: "SmartCookieWeb/SmartCookieWeb.apk",
+	name: "Mull",
+	apk: "Mull/Mull.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,

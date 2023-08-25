@@ -23,11 +23,8 @@ PRODUCT_PACKAGES += \
     CombinedIconsOverlay
 
 # Smartcookieweb
-SMARTCOOKIEWEB ?= true
-ifeq ($(strip $(SMARTCOOKIEWEB)),true)
-     PRODUCT_PACKAGES += \
-         SmartCookieWeb
-endif
+PRODUCT_PACKAGES += \
+    Mull
 
 # Graphene Apps
 ifeq ($(GrapheneApps),true)
